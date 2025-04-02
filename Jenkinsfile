@@ -5,8 +5,8 @@ pipeline {
         stage('Build') {
             agent{
                 docker{
-                    image: 'node:18-apline'
-                    reuseNode: true
+                    image 'node:18-apline'
+                    reuseNode true
                 }
             }
             steps {
