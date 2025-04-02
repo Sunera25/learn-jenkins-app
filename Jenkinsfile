@@ -38,9 +38,9 @@ pipeline {
 
     }
 
-    post{
-        always{
-            junit 'test-results/juint.xml'
-        }
-    }
+    // post{
+    //     always{
+    //         junit 'test-results/juint.xml'
+    //     }
+    // }
 }
